@@ -13,23 +13,31 @@ Both interfaces use the same REST + SSE chat backend. They do not bundle a chat 
 Claude credentials or an AI model. Saved Claude-session discovery stays server-side.
 An Oracle is a project/workspace grouping; it can contain multiple conversations.
 
-## Screenshots — full native windows
+## Screenshots — native full-window gallery
 
-Captured on macOS, 13 September 2026. Both show a real, **unsent example draft**;
-no messages were submitted for these captures. Private conversation history and terminal
-output are not shown. These are full app-window captures, not cropped panels or mockups.
+Captured on macOS, 13 September 2026, from the running apps with the system window
+capture tool. These are complete app windows (not cropped panels or mockups) using
+reviewed real local data. No credentials, tokens, or commands were entered for the
+captures. The mention and name/tag images are unsent interactive states; the live view
+is read-only. Bulk private transcripts and the development vault are not published.
 
-### V1 — classic light workspace
+| Conversations | Compose and manage |
+| --- | --- |
+| [![V1 real conversation](docs/screenshots/gallery/01-v1-real-chat.jpg)](docs/screenshots/gallery/01-v1-real-chat.jpg) **V1 real chat** | [![Search](docs/screenshots/gallery/04-v2-search.jpg)](docs/screenshots/gallery/04-v2-search.jpg) **Search sessions** |
+| [![V2 tree](docs/screenshots/gallery/02-v2-chat-tree.jpg)](docs/screenshots/gallery/02-v2-chat-tree.jpg) **V2 tree + inspector** | [![Oracle chooser](docs/screenshots/gallery/05-v2-oracle-chooser.jpg)](docs/screenshots/gallery/05-v2-oracle-chooser.jpg) **New conversation / Oracle chooser** |
+| [![Colorful session cards](docs/screenshots/gallery/03-v2-session-cards.jpg)](docs/screenshots/gallery/03-v2-session-cards.jpg) **Oracle session cards** | [![Mentions](docs/screenshots/gallery/06-v2-mentions.jpg)](docs/screenshots/gallery/06-v2-mentions.jpg) **@ Oracle/session mentions** |
+|  | [![Name and tags](docs/screenshots/gallery/07-v2-name-tags.jpg)](docs/screenshots/gallery/07-v2-name-tags.jpg) **Name and tags** |
+|  | [![Settings](docs/screenshots/gallery/08-v2-settings.jpg)](docs/screenshots/gallery/08-v2-settings.jpg) **Workspace settings** |
 
-![Full native Maw Chat V1 window with project search and an unsent example draft](docs/screenshots/v1-full-window.jpg)
+| Live view and capability boundaries |
+| --- |
+| [![Live source picker](docs/screenshots/gallery/09-v2-live-source-picker.jpg)](docs/screenshots/gallery/09-v2-live-source-picker.jpg) **Read-only tmux source picker** · [![Live preview](docs/screenshots/gallery/10-v2-live-preview.jpg)](docs/screenshots/gallery/10-v2-live-preview.jpg) **Live pane preview** |
 
-### V2 — dark three-column workspace
-
-![Full native Maw Chat V2 window with project sidebar, unsent example draft and disconnected live-view inspector](docs/screenshots/v2-full-window.jpg)
-
-Follow the [native app walkthrough](docs/tutorials/native-app-tour.md) to reach these
-screens. The screenshots retain each app's own window size; the surrounding desktop
-and other applications are not included.
+The [native app walkthrough](docs/tutorials/native-app-tour.md) explains how to reach
+these states. Group members, Marketplace and Routines currently show truthful
+unsupported-capability sheets; VNC, terminal input and backend imports are not
+implemented. The old draft screenshots remain available as [V1](docs/screenshots/v1-full-window.jpg)
+and [V2](docs/screenshots/v2-full-window.jpg) reference captures.
 
 ## Requirements
 
