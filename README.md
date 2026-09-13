@@ -34,6 +34,13 @@ is read-only. Bulk private transcripts and the development vault are not publish
 | --- |
 | [![Live source picker](docs/screenshots/gallery/09-v2-live-source-picker.jpg)](docs/screenshots/gallery/09-v2-live-source-picker.jpg) **Read-only tmux source picker** · [![Live preview](docs/screenshots/gallery/10-v2-live-preview.jpg)](docs/screenshots/gallery/10-v2-live-preview.jpg) **Live pane preview** |
 
+### Same truth, three native views
+
+The same local chat/server data is shown through the classic client, the dark workspace,
+and its read-only streaming terminal view:
+
+![Animated comparison of V1 chat, V2 workspace and V2 live terminal stream](docs/screenshots/gallery/same-truth-three-views.gif)
+
 The [native app walkthrough](docs/tutorials/native-app-tour.md) explains how to reach
 these states. Group members, Marketplace and Routines currently show truthful
 unsupported-capability sheets; VNC, terminal input and backend imports are not
