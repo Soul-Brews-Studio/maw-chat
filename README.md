@@ -26,7 +26,8 @@ is read-only. Bulk private transcripts and the development vault are not publish
 | [![V1 real conversation](docs/screenshots/gallery/01-v1-real-chat.jpg)](docs/screenshots/gallery/01-v1-real-chat.jpg) **V1 real chat** | [![Search](docs/screenshots/gallery/04-v2-search.jpg)](docs/screenshots/gallery/04-v2-search.jpg) **Search sessions** |
 | [![V2 tree](docs/screenshots/gallery/02-v2-chat-tree.jpg)](docs/screenshots/gallery/02-v2-chat-tree.jpg) **V2 tree + inspector** | [![Oracle chooser](docs/screenshots/gallery/05-v2-oracle-chooser.jpg)](docs/screenshots/gallery/05-v2-oracle-chooser.jpg) **New conversation / Oracle chooser** |
 | [![Colorful session cards](docs/screenshots/gallery/03-v2-session-cards.jpg)](docs/screenshots/gallery/03-v2-session-cards.jpg) **Oracle session cards** | [![Mentions](docs/screenshots/gallery/06-v2-mentions.jpg)](docs/screenshots/gallery/06-v2-mentions.jpg) **@ Oracle/session mentions** |
-|  | [![Name and tags](docs/screenshots/gallery/07-v2-name-tags.jpg)](docs/screenshots/gallery/07-v2-name-tags.jpg) **Name and tags** |
+| [![V1 favorites tree](docs/screenshots/gallery/11-v1-favorites-tree.jpg)](docs/screenshots/gallery/11-v1-favorites-tree.jpg) **V1 favorites and grouped projects** | [![V1 search](docs/screenshots/gallery/12-v1-search.jpg)](docs/screenshots/gallery/12-v1-search.jpg) **V1 search results** |
+| [![V1 new thread](docs/screenshots/gallery/13-v1-new-thread.jpg)](docs/screenshots/gallery/13-v1-new-thread.jpg) **V1 new-thread draft** | [![Name and tags](docs/screenshots/gallery/07-v2-name-tags.jpg)](docs/screenshots/gallery/07-v2-name-tags.jpg) **Name and tags** |
 |  | [![Settings](docs/screenshots/gallery/08-v2-settings.jpg)](docs/screenshots/gallery/08-v2-settings.jpg) **Workspace settings** |
 
 | Live view and capability boundaries |
