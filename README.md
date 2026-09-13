@@ -20,6 +20,21 @@ An Oracle is a project/workspace grouping; it can contain multiple conversations
 - A compatible chat backend, configured by default at `http://127.0.0.1:4318`.
   This is the shared chat-server API, not a direct Anthropic API client.
 
+## Dependencies and related repositories
+
+| Repository | Role | Required? |
+| --- | --- | --- |
+| [Claude chat backend / cc-chat-ui](https://github.com/nat-build-with-oracle/idea-11sep-fri2026-cc-chat-ui) | Shared REST + SSE chat service and server-side Claude session discovery; default `http://127.0.0.1:4318`. | Yes, for conversations in V1 and V2. |
+| [maw-rs](https://github.com/Soul-Brews-Studio/maw-rs) | Local tmux inventory and read-only pane captures; default `http://127.0.0.1:3461`. | Optional, for V2 Live view only. |
+
+Follow each repository's setup instructions to run the compatible service. They are
+not bundled, installed or started by Maw Chat. The maw server does not replace the
+chat backend, and tmux output is never used as chat history. A running maw server
+needs access to the tmux panes you want to view.
+
+The native app itself uses Apple's SwiftUI, AppKit and Foundation frameworks and has
+**no third-party Swift package dependencies**; see [Package.swift](Package.swift).
+
 ## Build and run
 
 ```sh
