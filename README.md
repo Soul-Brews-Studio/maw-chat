@@ -34,12 +34,14 @@ is read-only. Bulk private transcripts and the development vault are not publish
 | --- |
 | [![Live source picker](docs/screenshots/gallery/09-v2-live-source-picker.jpg)](docs/screenshots/gallery/09-v2-live-source-picker.jpg) **Read-only tmux source picker** · [![Live preview](docs/screenshots/gallery/10-v2-live-preview.jpg)](docs/screenshots/gallery/10-v2-live-preview.jpg) **Live pane preview** |
 
-### Same truth, three native views
+### Slow feature tours (theme-matched)
 
-The same local chat/server data is shown through the classic client, the dark workspace,
-and its read-only streaming terminal view:
+The animations are intentionally slow and keep light and dark interfaces separate so
+the transitions do not blink:
 
-![Animated comparison of V1 chat, V2 workspace and V2 live terminal stream](docs/screenshots/gallery/same-truth-three-views.gif)
+![Slow V1 light interface tour](docs/screenshots/gallery/v1-light-views.gif)
+
+![Slow V2 dark interface and live-stream tour](docs/screenshots/gallery/v2-dark-views.gif)
 
 The [native app walkthrough](docs/tutorials/native-app-tour.md) explains how to reach
 these states. Group members, Marketplace and Routines currently show truthful
