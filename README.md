@@ -13,6 +13,24 @@ Both interfaces use the same REST + SSE chat backend. They do not bundle a chat 
 Claude credentials or an AI model. Saved Claude-session discovery stays server-side.
 An Oracle is a project/workspace grouping; it can contain multiple conversations.
 
+## Screenshots — full native windows
+
+Captured on macOS, 13 September 2026. Both show a real, **unsent example draft**;
+no messages were submitted for these captures. Private conversation history and terminal
+output are not shown. These are full app-window captures, not cropped panels or mockups.
+
+### V1 — classic light workspace
+
+![Full native Maw Chat V1 window with project search and an unsent example draft](docs/screenshots/v1-full-window.jpg)
+
+### V2 — dark three-column workspace
+
+![Full native Maw Chat V2 window with project sidebar, unsent example draft and disconnected live-view inspector](docs/screenshots/v2-full-window.jpg)
+
+Follow the [native app walkthrough](docs/tutorials/native-app-tour.md) to reach these
+screens. The screenshots retain each app's own window size; the surrounding desktop
+and other applications are not included.
+
 ## Requirements
 
 - macOS 14 or newer.
@@ -82,7 +100,7 @@ servers and perform read-only requests:
 CHAT_LIVE_TEST=1 MAW_LIVE_TEST=1 swift test
 ```
 
-The public export excludes development transcripts, Oracle memories, chat screenshots,
+The public export excludes development transcripts, Oracle memories, private chat captures,
 local configuration and previous repository history. The application icon is original
 generated artwork; see `Assets/README.md`.
 
